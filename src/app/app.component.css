@@ -1,0 +1,13 @@
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25%;
+  margin: 0.25%;
+}
+
+.card-item {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
