@@ -30,7 +30,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
       ),
       transition("default => flipped", [animate("400ms")]),
       transition("flipped => default", [animate("400ms")]),
-      transition("* => matched", [animate("400ms")])
+      transition("* => matched", [animate("700ms")])
     ])
   ]
 })
